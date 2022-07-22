@@ -672,18 +672,18 @@ img {
 }
 
 .footer-btn {
-    animation: rotateY 1500ms infinite alternate-reverse cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
+    animation: scale 1500ms infinite alternate-reverse cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
-@keyframes  rotateY {
+@keyframes  scale {
     0% {
-        transform: perspective(200px) rotateY(20deg);
+        transform: perspective(200px) scale(0.9);
     }
 
    
 
     100% {
-        transform: perspective(200px) rotateY(-20deg);
+        transform: perspective(200px) scale(1.1);
     }
 }
 
