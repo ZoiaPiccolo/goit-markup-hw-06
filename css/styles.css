@@ -882,7 +882,20 @@ img {
 }
 
 .checkbox-link {
+    position: relative;
     color: var(--accent-color);
+    text-decoration: none;
+}
+
+.checkbox-link::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--accent-color);
 }
 
 .checkbox:checked + .checkbox-icon {
