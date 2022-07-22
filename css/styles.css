@@ -890,7 +890,7 @@ img {
 .checkbox-link::after {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 4px;
     content: "";
     display: block;
     height: 1px;
